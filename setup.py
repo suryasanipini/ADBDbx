@@ -12,7 +12,7 @@ INSTALL_REQUIRES = [
     "retry>=0.9.2, <1.0.0",
     "requests>=2.24.0, <3.0.0",
     "mlflow-skinny>=1.28.0,<=2.0.0",
-    "databricks-cli>=0.17,<0.18",
+    "databricks-cli>=0.17,<0.19",
     # CLI interface
     "click>=8.1.0,<9.0.0",
     "rich==12.5.1",
