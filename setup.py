@@ -62,7 +62,7 @@ setup(
     name="dbx",
     python_requires=">=3.8",
     packages=find_packages(exclude=["tests", "tests.*"]),
-    setup_requires=["wheel>=0.37.1,<0.38"],
+    setup_requires=["wheel>=0.37.1,<0.46"],
     install_requires=INSTALL_REQUIRES,
     extras_require={"dev": DEV_REQUIREMENTS},
     entry_points={"console_scripts": ["dbx=dbx.cli:entrypoint"]},
